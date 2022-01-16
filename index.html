@@ -5,15 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
 
-    <ul>
-        <li><a href="recipes/grandmas-lasagna.html">Grandma's Lasagna</a></li>
-        <li><a href="recipes/hamburger-gravy.html">Hamburger Gravy</a></li>
-        <li><a href="recipes/old-fashoned.html">Old Fashoned</a></li>
-    </ul>
+    <div class="header">
+        <h1>Grandma's Recipes</h1>
+    </div>
+    
+    <p>A selection of my favorite recipes from my wifes late grandmother.  May her memory live on in the delicous recipes she made and the happyness she spread to everyone around her.</p>
+
+    <h2>Featured Recipes</h2>
+
+    <div class ="cardRow">
+        <div id="firstCard" class ="card">
+            <a href="recipes/grandmas-lasagna.html"><img class="cardImage" src="images/lasagna.jpg" alt="Grandmas Lasagna Image"></a>
+            <div class="cardFooter">
+                <h3>Grandma's Lasagna</h3>
+                <p class="cardDescription">A no-frills by the books lasagna recipe thats simple and delicious!</p>
+            </div>
+        </div>
+    
+        <div id="secondCard" class ="card">
+            <a href="recipes/hamburger-gravy.html"><img class="cardImage" src="images/hamburger-gravy.jpg" alt="Hamburger Gravy Image"></a>
+            <div class="cardFooter">
+                <h3>Hamburger Gravy</h3>
+                <p class="cardDescription">Classic hamburger gravy recipe, another classic grandma recipe.</p>
+            </div>
+        </div>
+    
+        <div id="thirdCard" class ="card">
+            <a href="recipes/old-fashoned.html"><img class="cardImage" src="images/old-fashoned.jpg" alt="Old Fashoned Image"></a>
+            <div class="cardFooter">
+                <h3>Old Fashoned</h3>
+                <p class="cardDescription">A classic drink, in the Wisconsin style.</p>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
